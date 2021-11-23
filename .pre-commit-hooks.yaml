@@ -1,0 +1,21 @@
+- id: deno-fmt-check
+  name: deno fmt --check
+  description: Checks if all JavaScript, TypeScript, Markdown and JSON files are formatted.
+  entry: deno fmt --check
+  types_or: [javascript, jsx, ts, tsx, json, markdown]
+  pass_filenames: false
+  language: system
+- id: deno-fmt
+  name: deno fmt
+  description: Auto-format all JavaScript, TypeScript, Markdown and JSON files.
+  entry: deno fmt
+  types_or: [javascript, jsx, ts, tsx, json, markdown]
+  pass_filenames: false
+  language: system
+- id: deno-lint
+  name: deno lint
+  description: Lint all JavaScript and TypeScript source code files.
+  entry: deno lint
+  types_or: [javascript, jsx, ts, tsx]
+  pass_filenames: false
+  language: system
