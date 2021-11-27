@@ -8,7 +8,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 -   repo: https://github.com/nozaq/pre-commit-deno
-    rev: v0.0.1  # Use the ref you want to point at
+    rev: v0.1.0  # Use the ref you want to point at
     hooks:
     -   id: deno-fmt
     -   id: deno-lint
@@ -28,3 +28,7 @@ Auto-format all JavaScript, TypeScript, Markdown and JSON files.
 ### `deno-lint`
 
 Lint all JavaScript and TypeScript source code files.
+
+### `deno-test`
+
+Run tests.
