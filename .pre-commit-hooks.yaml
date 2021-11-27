@@ -19,3 +19,9 @@
   types_or: [javascript, jsx, ts, tsx]
   pass_filenames: false
   language: system
+- id: deno-test
+  name: deno test
+  description: Run tests.
+  entry: deno test
+  pass_filenames: false
+  language: system
