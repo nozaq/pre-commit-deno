@@ -8,7 +8,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 -   repo: https://github.com/nozaq/pre-commit-deno
-    rev: v0.1.0  # Use the ref you want to point at
+    rev: 0.1.0  # Use the ref you want to point at
     hooks:
     -   id: deno-fmt
     -   id: deno-lint
